@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingTop="@dimen/_24sdp"
+        android:paddingBottom="@dimen/_24sdp"
+        android:orientation="horizontal"
+        android:background="@color/colorExtra">
+
+        <TextView
+            android:id="@+id/order_distance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/distance_2_km"
+            android:textColor="@color/colorBlack"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/order_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/duration_2_4_mins"
+            android:textColor="@color/colorBlack"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/tracking_message">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.progandroid.map.OrderTrackingActivity" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_8sdp"
+                android:background="@color/colorBlack"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:alpha="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/show_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DELIVERY TIME"
+                    android:textColor="@color/colorExtra"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_16sdp" />
+
+                <TextView
+                    android:id="@+id/timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="08 : 00 mins"
+                    android:textColor="@color/colorExtra"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:textSize="@dimen/_16sdp" />
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/tracking_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_16sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/order_item_exra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/timer_count_down"
+                android:textColor="@color/colorExtra"
+                android:textSize="@dimen/_11sdp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

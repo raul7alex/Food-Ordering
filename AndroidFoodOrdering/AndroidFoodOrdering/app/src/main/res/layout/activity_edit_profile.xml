@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.progandroid.foodordering.EditProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:padding="@dimen/_4sdp"
+            android:text="@string/no_text"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bottom_border"
+            android:hint="@string/username_hint"
+            android:textColorHint="@color/colorBlack"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"
+            android:padding="@dimen/_12sdp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bottom_border"
+            android:hint="@string/email_hint"
+            android:textColorHint="@color/colorBlack"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"
+            android:padding="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bottom_border"
+            android:hint="@string/address_hint"
+            android:textColorHint="@color/colorBlack"
+            android:inputType="textPostalAddress"
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"
+            android:padding="@dimen/_12sdp"/>
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bottom_border"
+            android:hint="@string/phone_number_hint"
+            android:inputType="phone"
+            android:textColorHint="@color/colorBlack"
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"
+            android:padding="@dimen/_12sdp"/>
+
+        <Button
+            android:id="@+id/edit_user_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:paddingBottom="@dimen/_16sdp"
+            android:paddingTop="@dimen/_16sdp"
+            android:text="@string/edit_user_profile"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_14sdp"
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

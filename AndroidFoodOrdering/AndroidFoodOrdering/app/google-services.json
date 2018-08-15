@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "618350008203",
+    "firebase_url": "https://appetite-4ea6c.firebaseio.com",
+    "project_id": "appetite-4ea6c",
+    "storage_bucket": "appetite-4ea6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618350008203:android:00bc4299217353d3",
+        "android_client_info": {
+          "package_name": "com.androidsrc.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618350008203-dev8j6lg4p6scb13qplhucgc9jse1be7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androidsrc.client",
+            "certificate_hash": "6b97923a9f126928886613c12914f2ad1f3de51e"
+          }
+        },
+        {
+          "client_id": "618350008203-ekfl7umh1rc2fh1ur7ovr576rfsrs9lo.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "618350008203-ekfl7umh1rc2fh1ur7ovr576rfsrs9lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPwj74tYhh815WgnS_UBXS58RUcyo5Kv0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618350008203-ekfl7umh1rc2fh1ur7ovr576rfsrs9lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618350008203:android:d909f0ba96b17fe3",
+        "android_client_info": {
+          "package_name": "com.inducesmile.androidfoodordering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618350008203-5cutljo8pqdjiijdpoaa36o917ruqebi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inducesmile.androidfoodordering",
+            "certificate_hash": "6b97923a9f126928886613c12914f2ad1f3de51e"
+          }
+        },
+        {
+          "client_id": "618350008203-ekfl7umh1rc2fh1ur7ovr576rfsrs9lo.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "618350008203-ekfl7umh1rc2fh1ur7ovr576rfsrs9lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPwj74tYhh815WgnS_UBXS58RUcyo5Kv0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618350008203-ekfl7umh1rc2fh1ur7ovr576rfsrs9lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

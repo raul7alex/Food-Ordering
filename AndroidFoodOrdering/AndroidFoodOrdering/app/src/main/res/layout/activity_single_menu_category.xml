@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_menu_category"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context="com.progandroid.foodordering.SingleMenuCategoryActivity">
+
+    <EditText
+        android:id="@+id/category_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:background="@drawable/bottom_border"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:hint="@string/search"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/colorBlack" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/single_category"
+        android:layout_below="@+id/category_search"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none" />
+
+</RelativeLayout>
